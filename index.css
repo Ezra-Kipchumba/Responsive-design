@@ -55,19 +55,32 @@ a {
   padding-left: 80px;
 }
 
-.right input[type="type"] {
+.right input {
   height: 45px;
   width: 100%;
-  color: #fff;
-  background: #000;
+  color: #000;
+  background: #fff;
   border-radius: 5px;
   letter-spacing: 1px;
   cursor: pointer;
   margin-top: 12px;
   border: 2px solid #eb2f06;
+  font-size: 16px;
+}
+.sub {
+  height: 45px;
+  width: 100%;
+  color: #fff;
+  background: #eb2f06;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  font-size: 16px;
 }
 
-.right input[type="type"]:hover {
+.right input:hover {
   background: none;
   color: #eb2f06;
 }
@@ -82,9 +95,12 @@ a {
 }
 .bottom {
   width: 100%;
-  text-align: right;
+  /* text-align: right; */
   color: #d9d9d9;
   padding: 0 40px 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .bottom a {
   color: #eb2f06;
