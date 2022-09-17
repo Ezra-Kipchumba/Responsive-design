@@ -47,12 +47,18 @@ a {
 
 .topic {
   margin: 24px 0 5px 0;
+  
 }
+
 .content .lower i {
   padding-right: 16px;
 }
 .middle {
   padding-left: 80px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 6px;
+  margin: 5px;
 }
 
 .right input {
@@ -86,7 +92,7 @@ a {
 }
 .insta {
   font-size: 16px;
-  height: 45px;
+  height: 25px;
   width: 45px;
   display: block;
   border-radius: 5px;
@@ -101,6 +107,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 .bottom a {
   color: #eb2f06;
